@@ -123,7 +123,7 @@ section .title::after{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #333;
 }
 
 /* menu btn styling */
@@ -133,6 +133,7 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
+
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -277,6 +278,7 @@ section .title::after{
     text-decoration: none;
     color: #f1f1f1;
     text-align: center;
+    height: 20%;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
